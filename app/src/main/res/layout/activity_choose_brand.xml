@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#f4f8fb"
+    android:fitsSystemWindows="true">
+        <ScrollView
+            android:id="@+id/sl_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_recom"
+                    android:text="推荐标签"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#959595"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginBottom="14dp"
+                    />
+                <com.example.lzq.supperpictagview.view.MyListView
+                    android:id="@+id/lv_recom_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:divider="#F7F7F7"
+                    android:listSelector="#00000000"
+                    android:cacheColorHint="#ffffff"
+                    android:layout_marginBottom="14dp"
+                    android:layout_height="wrap_content">
+                </com.example.lzq.supperpictagview.view.MyListView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/ll_local"
+                    >
+
+                    <TextView
+                        android:text="位置标签"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#959595"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginBottom="14dp"
+                        />
+                    <com.example.lzq.supperpictagview.view.MyListView
+                        android:id="@+id/lv_local_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="#F7F7F7"
+                        android:cacheColorHint="#ffffff"
+                        android:listSelector="#00000000"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginBottom="5dp"
+                        >
+                    </com.example.lzq.supperpictagview.view.MyListView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+</LinearLayout>

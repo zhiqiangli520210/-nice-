@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/iv_circle_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+    <LinearLayout
+        android:id="@+id/loTag"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_picturetagview_tagview_left" >
+        <TextView
+            android:id="@+id/tvPictureTagLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:hint=""
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/etPictureTagLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:hint=""
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="10dp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tv_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:hint=""
+            android:imeOptions="actionDone"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="10dp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:hint=""
+            android:imeOptions="actionDone"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_circle_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+</LinearLayout>

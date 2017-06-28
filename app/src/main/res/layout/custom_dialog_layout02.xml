@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/dialog_bg"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#323232"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="aaa"
+        android:textColor="#8c8c8c"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"/>
+
+    <Button
+        android:id="@+id/positiveButton"
+        style="@style/normal_dialog_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:text="确定"
+        android:background="@null"
+        android:textColor="#ff4466" />
+
+
+
+</LinearLayout>

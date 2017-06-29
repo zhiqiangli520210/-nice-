@@ -12,4 +12,4 @@
 
 5.支持打不同类型的标签，如推荐标签、位置标签、活动标签等。
 
-
+![a.png](https://github.com/zhiqiangli520210/-nice-/blob/master/apk/a.gif)

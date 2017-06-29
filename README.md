@@ -2,7 +2,6 @@
 仿nice图片打标签
 本项目是基于PictureView进行优化的，github地址：https://github.com/saiwu-bigkoo/Android-PictureTagView 
 优化亮点：
-
 1.支持点击标签切换方向。
 
 2.支持长按标签删除。
